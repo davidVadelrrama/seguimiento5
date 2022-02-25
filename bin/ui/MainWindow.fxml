@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="47.0" layoutY="62.0" prefHeight="251.0" prefWidth="506.0">
+        <columns>
+          <TableColumn prefWidth="177.0" text="AMOUNT" />
+            <TableColumn prefWidth="169.0" text="TYPE" />
+            <TableColumn prefWidth="159.0" text="DATE" />
+        </columns>
+      </TableView>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <Menu mnemonicParsing="false" text="Show">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Account balance" />
+                        <Menu mnemonicParsing="false" text="New">
+                          <items>
+                            <MenuItem mnemonicParsing="false" text="Add" />
+                          </items>
+                        </Menu>
+                    </items>
+                  </Menu>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
