@@ -5,12 +5,12 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VentanaDinero">
    <children>
       <TextField fx:id="ammountTF" layoutX="79.0" layoutY="70.0" promptText="Ammount" />
       <TextField fx:id="typeTF" layoutX="79.0" layoutY="138.0" promptText="Type" />
       <DatePicker fx:id="date" layoutX="67.0" layoutY="212.0" promptText="Today´s date" />
-      <Button fx:id="addBTN" layoutX="128.0" layoutY="294.0" mnemonicParsing="false" onAction="#addItem" text="add" />
+      <Button fx:id="addBTN" layoutX="135.0" layoutY="361.0" mnemonicParsing="false" onAction="#addItem" text="add" />
+      <TextField fx:id="descriptionTF" alignment="TOP_CENTER" layoutX="59.0" layoutY="251.0" prefHeight="81.0" prefWidth="188.0" promptText="Description of the movement" />
    </children>
 </AnchorPane>
